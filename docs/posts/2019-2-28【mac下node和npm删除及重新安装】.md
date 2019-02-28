@@ -19,7 +19,7 @@ mac由于平时不太了解，导致后面npm出错，现在想删除重装
     sudo rm -rf /usr/local/share/man/man1/node.1  
     sudo rm -rf /usr/local/lib/dtrace/node.d  
     sudo rm -rf ~/.npm
-### 卸载
+### 安装
 #### 安装cnpm
     sudo npm install -g cnpm –registry=https://registry.npm.taobao.org/
 #### 如果报错执行如下命令
