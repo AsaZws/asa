@@ -6,7 +6,9 @@ categories: [javascript]
 ---
 
 ### ES5中的类
-在ES5中，我们把 new 理解成 javascript 面向对象的一部分，下面我们就来看一下 new 操作具体为我们做了那些事情。  
+在ES5中，我们把 new 理解成 javascript 面向对象的一部分，下面我们就来看一下 new 操作具体为我们做了那些事情。 
+
+
 new运算符接收一个构造器和一组调用参数，实际上做了几件事：
     1.以构造器的prototype属性（注意与私有字段[[prototype]]的区分）为原型，创建新对象；
     2.将this和调用参数传给构造器，执行；
