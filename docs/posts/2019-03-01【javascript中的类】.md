@@ -17,7 +17,7 @@ new这样的行为，试图让函数对象在语法上跟类变得相似，但�
 
 
 下面代码展示了用构造器模拟类的两种方法：
-```
+```js
 function c1() {
 this.p1 = 1;
 this.p2 = function (){
@@ -44,7 +44,7 @@ ES6中引入了classES6 中引入了 class 关键字，并且在标准中删除�
 
 
 我们先看下类的基本写法：  
-```
+```js
 class Rectangle {
   constructor(height, width) {
     this.height = height;
