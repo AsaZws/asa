@@ -14,13 +14,24 @@
   "dependencies": {
     "element-ui": "^2.5.4",
     "vssue": "^0.7.1",
-    "vuepress-theme-indigo-material": "^1.0.9"
+    "vuepress-theme-indigo-material": "^1.0.12"
   },
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.39",
     "babel-plugin-component": "^1.1.1",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
-  }
+    "sass-loader": "^7.1.0",
+    "vuepress": "^0.14.11"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": "git+https://github.com/AsaZws/asa.git",
+  "author": "zhouweisheng <zhouws.com@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsaZws/asa/issues"
+  },
+  "homepage": "https://github.com/AsaZws/asa#readme"
 }
