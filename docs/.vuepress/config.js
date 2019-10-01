@@ -34,7 +34,7 @@ module.exports = {
     github: 'https://github.com/AsaZws', //点击github跳转的地址
     vssue: {
       //评论的配置,
-      need: false, //是否需要评论
+      need: true, //是否需要评论
       development: {
         //开发环境下的配置
         clientId: '',
